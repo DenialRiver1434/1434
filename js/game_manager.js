@@ -165,14 +165,12 @@ GameManager.prototype.move = function (direction) {
 
           // Update the score
           self.score += merged.value;
+          self.score = Math.round(self.score);
 
           // The mighty 1434 tile
-          
-          if (merged.value === 358.4) {
-            merged.value = 358.5;
-          } 
 
-          if (merged.value === 1434) {
+          if (merged.value === 1433.6) {
+            merged.value = 1434;
             self.won = true;
           } 
         } else {
