@@ -168,7 +168,7 @@ GameManager.prototype.move = function (direction) {
 
           // The mighty 1434 tile
 
-          if (merged.value === 2048) {
+          if (merged.value === 64) {
             self.won = true;
             merged.value = 1434;
           } 
