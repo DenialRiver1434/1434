@@ -1,10 +1,10 @@
 Losing the game:
 
-![image](https://github.com/S-D-Ge/1434/assets/52391257/8bc7fb66-bd35-4e0e-98d7-cf6632e8aafb)
+![image](https://github.com/S-D-Ge/1434/assets/52391257/e23e4004-b490-4086-ba04-22c672cbda48)
 
 Or really losing the game:
 
-![image](https://github.com/S-D-Ge/1434/assets/52391257/cd3716d6-1f31-4851-963c-2e08a234a21f)
+![image](https://github.com/S-D-Ge/1434/assets/52391257/4c98ad81-0266-4a02-b88c-ae0aba66d9b0)
 
 # Instructions for Download (Works on school computers)
 1. Click on the green "<> Code" button, then download ZIP
