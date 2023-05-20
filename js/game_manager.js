@@ -172,7 +172,7 @@ GameManager.prototype.move = function (direction) {
 
           // Update the score
           
-          self.score += merged.value * Math.floor(6 + 3 * Math.random());
+          self.score += merged.value * Math.floor(3 + 2 * Math.random());
           if (merged.value === 0) {
             self.score += 1434;
           } 
