@@ -8,7 +8,8 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 0px 0; 
+margin-bottom: 20px;}
 
 .heading:after {
   content: "";
@@ -139,7 +140,7 @@ hr {
   100% {
     opacity: 1; } }
 .game-container {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   position: relative;
   padding: 15px;
@@ -335,7 +336,10 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+  font-size: 55px; }
+  .tile.tile-0 .tile-inner {
+    background: #ff9100;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-1 .tile-inner {
     background: #888e91;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -360,7 +364,7 @@ hr {
   .tile.tile-179 .tile-inner {
     color: #f9f6f2;
     background: #00a3b8;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.15);
+    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.15);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-179 .tile-inner {
@@ -368,7 +372,7 @@ hr {
   .tile.tile-358 .tile-inner {
     color: #f9f6f2;
     background: #0069a7;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.143);
+    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-358 .tile-inner {
@@ -376,7 +380,7 @@ hr {
   .tile.tile-717 .tile-inner {
     color: #f9f6f2;
     background: #0a438d;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.143);
+    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.35);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-717 .tile-inner {
@@ -384,7 +388,7 @@ hr {
   .tile.tile-1434 .tile-inner {
     color: #f9f6f2;
     background: #1b046d;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.143);
+    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1434 .tile-inner {
@@ -392,6 +396,7 @@ hr {
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #361e3d;
+    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 1), inset 0 0 0 1px rgba(255, 255, 255, 1);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -517,14 +522,14 @@ hr {
 
 .game-intro {
   float: left;
-  line-height: 42px;
-  margin-bottom: 0; }
+  margin-top: 10px;
+  line-height: 0px; }
 
 .restart-button {
   display: inline-block;
   background: #66698f;
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 0 12px;
   text-decoration: none;
   color: #f9f6f2;
   height: 40px;
@@ -532,6 +537,31 @@ hr {
   display: block;
   text-align: center;
   float: right; }
+
+  .allow0 {
+    display: block;
+    background: #ff8800;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 32px;
+    padding: 0 8px;
+    color: #000000;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 6px;
+    float: left; }
+
+  input[type=checkbox]
+  {
+    /* Double-sized Checkboxes */
+    margin-top: 6px;
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(2);
+  }
 
 .best-reset-button {
   display: inline-block;
