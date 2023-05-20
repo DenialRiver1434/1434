@@ -71,6 +71,7 @@ KeyboardInputManager.prototype.listen = function () {
   // Respond to button presses
   this.bindButtonPress(".retry-button", this.restart);
   this.bindButtonPress(".restart-button", this.restart);
+  this.bindButtonPress(".best-reset-button", this.resetscore);
   this.bindButtonPress(".keep-playing-button", this.keepPlaying);
 
   // Respond to swipe events
@@ -130,6 +131,11 @@ KeyboardInputManager.prototype.listen = function () {
 KeyboardInputManager.prototype.restart = function (event) {
   event.preventDefault();
   this.emit("restart");
+};
+
+KeyboardInputManager.prototype.resetscore = function (event) {
+  event.preventDefault();
+  this.emit("resetscore");
 };
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {

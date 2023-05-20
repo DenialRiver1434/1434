@@ -9,11 +9,16 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
+  this.inputManager.on("resetscore", this.resetscore.bind(this));
 
   this.setup();
 }
 
-// Restart the game
+GameManager.prototype.resetscore = function () {
+  this.storageManager.setBestScore(0);
+  this.setup();
+};
+
 GameManager.prototype.restart = function () {
   this.storageManager.clearGameState();
   this.actuator.continueGame(); // Clear the game won/lost message

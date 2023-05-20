@@ -138,7 +138,8 @@ hr {
   100% {
     opacity: 1; } }
 .game-container {
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
   padding: 15px;
   cursor: default;
@@ -525,8 +526,22 @@ hr {
   text-align: center;
   float: right; }
 
+.best-reset-button {
+  display: inline-block;
+  background: #cf1010;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  margin-top: 10px; 
+  display: block;
+  text-align: center;
+  float: center; }
+
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 80px; }
 
 @media screen and (max-width: 520px) {
   html, body {
