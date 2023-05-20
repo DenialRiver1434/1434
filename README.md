@@ -1,10 +1,28 @@
-Losing the game:
+# 1434 (v 1.43.4)
 
-![image](https://github.com/S-D-Ge/1434/assets/52391257/e23e4004-b490-4086-ba04-22c672cbda48)
+You lost the game? Or did I lose the game?
 
-Or really losing the game:
+### Note
 
-![image](https://github.com/S-D-Ge/1434/assets/52391257/4c98ad81-0266-4a02-b88c-ae0aba66d9b0)
+I have never coded in html and javascript before. When making to project, I was trying my best to edit somebody else's code that I cannot read. As a result, there might be some rare bugs.
+
+### Change Log
+
+5/19/2023
+- Added "reset high score button"
+- Improved format / coloring / button placement
+- Edited game text
+- Blocks now start at 1
+
+5/18/2023
+- Major recoloring
+
+5/17/2023
+- Changed the blocks to be the values of 1434 when divided by 2 and rounding down
+- Fixed coloring for blocks
+
+5/16/2023
+- 1024 block now becomes 1434 
 
 # Instructions for Download (Works on school computers)
 1. Click on the green "<> Code" button, then download ZIP
@@ -20,8 +38,5 @@ Or really losing the game:
 
 ![image](https://github.com/S-D-Ge/1434/assets/52391257/506f1902-b393-4f44-85d7-1ef897430815)
 
-# 1434
+# Credits
 This is a fork of gabrielecirculari's 2048, which is a small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
-
-### Notes
-- I lost the game
