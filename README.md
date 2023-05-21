@@ -26,7 +26,7 @@ I have never coded in html and javascript before. When making to project, I was 
 
 Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!
 - When two 0s merge, you earn 1434 points
-- When two positive integers merge, you earn 3-4 times their sum
+- When two positive integers merge, you earn 2-3 times their sum
 
 # Credits
 This is a fork of gabrielecirculari's 2048, which is a small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
