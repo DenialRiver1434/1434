@@ -517,12 +517,12 @@ hr {
 .restart-button {
   display: inline-block;
   background: #001aff;
-  border-radius: 3px;
-  padding: 0 12px;
+  border-radius: 5px;
+  padding: 0 15px;
   text-decoration: none;
   color: #f9f6f2;
-  height: 40px;
-  line-height: 42px;
+  height: 50px;
+  line-height: 52px;
   display: block;
   text-align: center;
   float: right; }
@@ -539,7 +539,7 @@ hr {
     display: block;
     text-align: center;
     margin-left: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
     float: left; }
 
   .allow0 {
@@ -554,13 +554,13 @@ hr {
     display: block;
     text-align: center;
     margin-left: 8px;
-    margin-top: 5px;
+    margin-top: 10px;
     float: left; }
 
   input[type=checkbox]
   {
     /* Double-sized Checkboxes */
-    margin-top: 6px;
+    margin-top: 10px;
     -ms-transform: scale(2); /* IE */
     -moz-transform: scale(2); /* FF */
     -webkit-transform: scale(1.5); /* Safari and Chrome */
