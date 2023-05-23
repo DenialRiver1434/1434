@@ -33,6 +33,10 @@ This is a fork of gabrielecirculari's 2048, which is a small clone of [1024](htt
 
 ### Change Log
 
+5/22/2023 (QUALITY OF LIFE UPDATE)
+- New color scheme!
+- Option to hide numbers
+
 5/20/2023 (THE POWER OF 0 UPDATE)
 - There is now an option for 0 to spawn
 - Point value change

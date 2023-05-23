@@ -17,7 +17,7 @@ margin-bottom: 20px;}
   clear: both; }
 
 h1.title {
-  color:rgb(166, 197, 255);
+  color:#5bc8af;
   font-size: 90px;
   font-weight: bold;
   margin: 0;
@@ -55,14 +55,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #4e5c5c;
+  background: #136350;
   padding: 15px 20px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 40px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -332,71 +332,60 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #b1a99d;
+    background: #3d3d3d;
     text-align: center;
     font-weight: bold;
     z-index: 10;
   font-size: 55px; }
   .tile.tile-0 .tile-inner {
-    background: #ff9100;
-    box-shadow: 0 0 30px 10px rgba(255, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #ff7b00;
+    box-shadow: 0 0 30px 10px rgb(255, 0, 0, 0.6), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-1 .tile-inner {
-    background: #888e91;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #48524a;
+   }
   .tile.tile-2 .tile-inner {
-    background: #807a71;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #405c42; }
   .tile.tile-5 .tile-inner {
-    background: #868361;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #3c8142; }
   .tile.tile-11 .tile-inner {
-    color: #f9f6f2;
-    background: #abbe3c; }
+    background: #0aa804; }
   .tile.tile-22 .tile-inner {
-    color: #f9f6f2;
-    background: #6e8641; }
+    background: #07d300; }
   .tile.tile-44 .tile-inner {
-    color: #f9f6f2;
-    background: #478a3e; }
+    background: #00d38d; }
   .tile.tile-89 .tile-inner {
-    color: #f9f6f2;
-    background: #00b89f; }
+    background: #00ccd3; }
   .tile.tile-179 .tile-inner {
-    color: #f9f6f2;
-    background: #00a3b8;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+    background: #00a9dd;
+    box-shadow: 0 0 30px 10px rgba(247, 0, 255, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.15);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-179 .tile-inner {
         font-size: 25px; } }
   .tile.tile-358 .tile-inner {
-    color: #f9f6f2;
-    background: #0069a7;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+    background: #0087e0;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 242, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-358 .tile-inner {
         font-size: 25px; } }
   .tile.tile-717 .tile-inner {
-    color: #f9f6f2;
-    background: #0a438d;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+    background: #002fff;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 221, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.35);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-717 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1434 .tile-inner {
-    color: #f9f6f2;
-    background: #1b046d;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    background: #7700ff;
+    box-shadow: 0 0 30px 10px rgba(247, 0, 255, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1434 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #361e3d;
-    box-shadow: 0 0 30px 10px rgba(213, 116, 243, 1), inset 0 0 0 1px rgba(255, 255, 255, 1);
+    background: #ea00ff;
+    box-shadow: 0 0 30px 10px rgb(247, 0, 255), inset 0 0 0 1px rgba(255, 255, 255, 1);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -527,7 +516,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #66698f;
+  background: #001aff;
   border-radius: 3px;
   padding: 0 12px;
   text-decoration: none;
@@ -538,18 +527,34 @@ hr {
   text-align: center;
   float: right; }
 
-  .allow0 {
-    display: block;
-    background: #ff8800;
+  .hidenum {
+    display: inline-block;
+    background: #168600;
     border-radius: 3px;
+    padding: 0 8px;
+    text-decoration: none;
+    color: #f9f6f2;
     height: 30px;
     line-height: 32px;
-    padding: 0 8px;
-    color: #000000;
     display: block;
     text-align: center;
-    margin-left: 10px;
-    margin-top: 6px;
+    margin-left: 15px;
+    margin-top: 5px;
+    float: left; }
+
+  .allow0 {
+    display: inline-block;
+    background: #ff7b00;
+    border-radius: 3px;
+    padding: 0 8px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 30px;
+    line-height: 32px;
+    display: block;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 5px;
     float: left; }
 
   input[type=checkbox]

@@ -8,6 +8,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
+  this.inputManager.on("hidenum", this.hidenum.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
   this.inputManager.on("resetscore", this.resetscore.bind(this));
 
@@ -23,6 +24,9 @@ GameManager.prototype.restart = function () {
   this.storageManager.clearGameState();
   this.actuator.continueGame(); // Clear the game won/lost message
   this.setup();
+};
+
+GameManager.prototype.hidenum = function () {
 };
 
 // Keep playing after winning (allows going over 1434)
