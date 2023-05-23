@@ -139,6 +139,9 @@ KeyboardInputManager.prototype.hidenum = function (event) {
   var gameContainer = document.getElementsByClassName("game-container")[0];
   if(gameContainer.style.color === 'transparent') gameContainer.style.color = 'white';
   else gameContainer.style.color = 'transparent';
+  var gri = document.getElementsByClassName("game-message")[0];
+  gri.style.color = 'white';
+  
   this.emit("hidenum");
 };
 
