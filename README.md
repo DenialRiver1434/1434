@@ -2,7 +2,7 @@
 
 You lost the game? Or did I lose the game?
 
-![image](https://github.com/S-D-Ge/1434/assets/52391257/54d79418-7f47-4cbc-841c-92470207620e)
+![image](https://github.com/S-D-Ge/1434/assets/52391257/99552b6f-93a6-4d23-9939-97bd90939d70)
 
 ### Note
 
