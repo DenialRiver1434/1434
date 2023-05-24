@@ -354,40 +354,40 @@ hr {
   .tile.tile-22 .tile-inner {
     background: #359aaa; }
   .tile.tile-44 .tile-inner {
-    background: #1fc9c9; }
+    background: #1aa9c9; }
   .tile.tile-89 .tile-inner {
     background: #00bfff; }
   .tile.tile-179 .tile-inner {
     background: #00a2fa;
-    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.15), inset 0 0 0 3px rgba(255, 255, 255, 0.5);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-179 .tile-inner {
         font-size: 25px; } }
   .tile.tile-358 .tile-inner {
     background: #0061e0;
-    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.2), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.2), inset 0 0 0 3px rgba(255, 255, 255, 0.75);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-358 .tile-inner {
         font-size: 25px; } }
   .tile.tile-717 .tile-inner {
     background: #4b39e7;
-    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.35), inset 0 0 0 2px rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.35), inset 0 0 0 3px rgba(255, 255, 255);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-717 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1434 .tile-inner {
     background: #8128e6;
-    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.5), inset 0 0 0 3px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 30px 10px rgba(78, 29, 255, 0.5), inset 0 0 0 4px rgba(255, 255, 255);
     font-size: 40px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1434 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     background: #b91bc7;
-    box-shadow: 0 0 30px 10px rgb(78, 29, 255), inset 0 0 0 4px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 30px 10px rgb(78, 29, 255), inset 0 0 0 5px rgba(255, 255, 255);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
