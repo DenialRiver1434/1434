@@ -98,13 +98,13 @@ h1.title {
   content: "Best"; }
 
 p {
-  color:#bcc9bf;
+  color:#b3ffff;
   margin-top: 0;
   margin-bottom: 10px;
   line-height: 1.65; }
 
 a {
-  color: #657776;
+  color: #15c299;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
