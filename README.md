@@ -1,6 +1,7 @@
 # 1434 (v 1.43.4)
 
-Try the game here: https://denialriver8810.github.io/1434/
+Try the game here: https://denialriver8810.github.io/1434/.
+
 If the link doesn't work, you can download it as well (even on school computers)
 
 ### Introduction
