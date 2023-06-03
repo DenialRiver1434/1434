@@ -1,5 +1,10 @@
 # 1434 (v 1.43.4)
 
+Try the game here: https://denialriver8810.github.io/1434/
+If the link doesn't work, you can download it as well (even on school computers)
+
+### Introduction
+
 You lost the game? Or did I lose the game?
 
 ![image](https://github.com/S-D-Ge/1434/assets/52391257/0396bd73-bdee-49c0-8430-755f1d3cb6fb)
